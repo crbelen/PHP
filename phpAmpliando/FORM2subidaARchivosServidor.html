@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--SUBIDA DE ARCHIVOS AL SERVIDOR
+        *FORMULARIO DE ENVIO=> generar el formulario con html
+            *method = "POST"
+            *enctype = "multipart/form-data"  (tipo de encriptacion)
+            *<input type ="file".../>
+    -->
+    <form id="miformulario2" method="post" enctype="multipart/form-data" action="form2Subir.php">
+        <p>
+            <label for "imagen">Fotografia: </label>
+            <input type="file" id="imagen" name="imagen">
+            <input type="submit" id="subir" name="Subir">
+        </p>
+
+
+    </form>
+
+
+
+</body>
+</html>

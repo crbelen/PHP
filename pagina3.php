@@ -1,0 +1,1 @@
+hola has llegado aquí mediante redireccionamiento de php con header

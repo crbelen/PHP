@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!--FORMULARIOS
+    Documento elaborado para que un usuario introduzca datos estructurados.
+    * posteriormente se almacenan y se procesan
+    *se elaboran en HTML
+    *se validan en el cliente con JavaScrip
+    *se validan en el servidor con PHP
+    -->
+
+    <form id="miformulario" method="post" action="form1Procesa.php">
+        <p>
+            <label for="usuario"> Usuario: </label>
+            <input type="text" name="usuario" id="usuario">
+        </p>
+
+        <p>
+            <label for="password"> Clave: </label>
+            <input type="password" name="clave" id="clave">
+        </p>
+
+        <p>
+            <input type="submit" name="submit" id="submit" value="Procesar">
+        </p>
+
+    </form>
+  
+</body>
+</html>

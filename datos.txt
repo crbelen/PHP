@@ -1,0 +1,1 @@
+Hola, estoy escribiendo en el archivo de texto datos desde php
