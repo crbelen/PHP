@@ -35,6 +35,7 @@
             echo "<br>";
         }
 
+        mysqli_close($conexion);//cerramos siempre la conexion para no saturar el sistema
     ?>
 </body>
 </html>

@@ -11,7 +11,7 @@
         
         echo "fopen() <br> ................... <br>";
         #ABRIR FICHERO
-            //archivo que se quiere abrirç
+            //archivo que se quiere abrir
             //modo de apertura
             //devuelve un puntero al archivo (variable que referencia una posicion concreta dentro de un fichero)
         $miarchivo = fopen("archivo1.txt", "r+");//apertura lectura y escritura

@@ -52,6 +52,9 @@
             echo $minombre. " no ha sido encontrado en la base de datos";
         }
 
+        mysqli_close($conexion);//cerramos siempre la conexion para no saturar el sistema
+        
+
     ?>
 </body>
 </html>

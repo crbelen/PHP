@@ -32,7 +32,6 @@
         echo "<br>";
         echo "<a href= 'sesionPagina4.php'> Finalizar sesion </a>";
 
-
     ?>
 </body>
 </html>

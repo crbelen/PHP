@@ -30,6 +30,7 @@
         mysqli_query($conexion, $sql);
         
 
+        mysqli_close($conexion);//cerramos siempre la conexion para no saturar el sistema
 
 
     ?>

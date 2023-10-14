@@ -12,7 +12,9 @@
         *  se almacenan en el servidor
         *  tiene la ventaja de que paginas distintas pueden acceder a variables comunes
         */
+        // las sesiones son una forma de guardar datos y que sea persistente a toda la App y así poder ir moviendo datos entre scrips y paginas diferentes
 
+        
         //INICIAR UNA SESION
             /*
             *Iniciar o reanudar una sesion asignando un ID único con session_start()

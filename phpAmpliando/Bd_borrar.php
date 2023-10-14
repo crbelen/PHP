@@ -52,7 +52,7 @@
         echo $minombre. " no ha sido eliminado en la base de datos";
     }
     
-    
+    mysqli_close($conexion);//cerramos siempre la conexion para no saturar el sistema
 
 
 
